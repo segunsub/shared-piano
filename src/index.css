@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.team_pictures {
+  height: 100%;
+  box-shadow: px 10px 10px;
+  border-radius: 45px;
+  margin-bottom: 20px;
+}
+
+#heading{
+  display: flex;
+  height: 500px;
+  width: 80%;
+  flex-direction: row;
+  align-items: center;
+}
+
+#home_page-inputs{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title{
+  width:80%
+}
+
+#text_container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  height:80%
+}
+
+#input_container{
+  height:80%;
+  width: 16em;
+  justify-content: center;
+}
+
+#nav-tab{
+  justify-content: center;
+}
+
+.profile {
+  height: 75%;
+  margin-bottom: 200px;
+  width: fit-content;
+}
+
+#users_list{
+  list-style-type:none;
+  padding-left: 0;
+  font-size: 20px;
+}
+
+.users{
+  font-weight: bold;
+}
+
+@media screen and (max-width:1135px) {
+  .profile {
+    height: 75%;
+    margin-bottom: 300px;
+    width: -moz-fit-content;
+    width: fit-content;    
+  }
+
+  #heading { 
+    flex-wrap: wrap;
+  }
+  
+  #text_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    margin-bottom: 110px;
+}
+}
