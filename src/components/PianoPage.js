@@ -98,9 +98,9 @@ function PianoPage(){
         <Users color={color}/>
         <ShowNote/> 
       </div>
-      <div>
+      {/* <div>
         <Chat/>
-      </div>      
+      </div>       */}
       <div id="features">
         {renderSwitch(instrument)}
         <KeyError/>
