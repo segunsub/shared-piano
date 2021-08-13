@@ -4,7 +4,7 @@ import * as Tone from 'tone'
 
 function Keyboard(e,sampler,keyNote,sound,activeOcta,color) {
     const input = document.getElementById("message input")
- 
+ console.log(keyNote)
     if(sampler.loaded && input !== document.activeElement) {
         const key = e.key.toLowerCase()
         const now = Tone.now()
