@@ -92,3 +92,12 @@ code {
     margin-bottom: 110px;
 }
 }
+
+.messages {
+  list-style-type:none;
+}
+
+/* .form-floating .form-select {
+  padding-top: 1.625rem;
+  padding-bottom: .625rem;
+} */
